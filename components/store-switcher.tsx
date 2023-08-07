@@ -39,7 +39,7 @@ export default function StoreSwitcher({ className, items = [] }: StoreSwitcherPr
     value: item.id
   }));
 
-  const currentStore = formattedItems.find((item) => item.value === params.storedId);
+  const currentStore = formattedItems.find((item) => item.value === params.storeId);
 
   const [open, setOpen] = useState(false)
 
